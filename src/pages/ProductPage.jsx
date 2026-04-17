@@ -74,6 +74,15 @@ export default function ProductPage() {
   const scrollRef = useRef(null)
   const { h, m, s } = useCountdown(525)
 
+  useEffect(() => {
+    window.ttq?.track('ViewContent', {
+      value: 67.92,
+      currency: 'BRL',
+      content_type: 'product',
+      contents: [{ content_id: 'mounjaro-5mg', content_name: 'Mounjaro™ 5mg – Tirzepatida', quantity: 1, price: 67.92 }],
+    })
+  }, [])
+
   const goToSlide = (idx) => {
     setCurrentSlide(idx)
     if (scrollRef.current) {
