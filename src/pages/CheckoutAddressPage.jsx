@@ -9,9 +9,9 @@ import { useCheckout } from '../context/CheckoutContext'
 const PRICE = 67.92
 
 const SHIPPING_OPTIONS = [
-  { id: 'gratis', logo: '/assets/full-logo.webp', label: 'Frete Grátis', sub: 'Entrega em 10 a 12 dias', price: 0, priceLabel: 'Grátis' },
-  { id: 'jadlog', logo: '/assets/jadlog-logo.webp', label: 'JADLOG', sub: 'Entrega em até 5 dias úteis', price: 15.9, priceLabel: 'R$ 15,90' },
-  { id: 'sedex', logo: '/assets/correios-logo.webp', label: 'SEDEX 12', sub: 'Entrega de 12h a 24h', price: 29.9, priceLabel: 'R$ 29,90' },
+  { id: 'gratis', logo: '/assets/full-logo-Dp-Wwk_5.webp', label: 'Frete Grátis', sub: 'Entrega em 10 a 12 dias', price: 0, priceLabel: 'Grátis' },
+  { id: 'jadlog', logo: '/assets/jadlog-logo-Cu2OMO03.webp', label: 'JADLOG', sub: 'Entrega em até 5 dias úteis', price: 15.9, priceLabel: 'R$ 15,90' },
+  { id: 'sedex', logo: '/assets/correios-logo-dDSW2VPd.webp', label: 'SEDEX 12', sub: 'Entrega de 12h a 24h', price: 29.9, priceLabel: 'R$ 29,90' },
 ]
 
 const ADDRESS_FIELDS = [
