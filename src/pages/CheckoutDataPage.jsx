@@ -30,7 +30,7 @@ export default function CheckoutDataPage() {
         {/* Estoque interno banner */}
         <div className="mx-4 mt-4">
           <img
-            src="/assets/estoque-interno.webp"
+            src="/assets/estoque-interno-E_0mQyBq.webp"
             alt="Estoque interno de funcionários liberado ao público"
             className="w-full rounded-xl shadow-sm"
           />
