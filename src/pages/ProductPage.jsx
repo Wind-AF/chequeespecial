@@ -7,40 +7,40 @@ import {
 import StarRating from '../components/StarRating'
 
 const PRODUCT_IMAGES = [
-  { src: '/assets/produto-monja-1.webp', alt: 'Mounjaro™️ 5 mg — Caneta injetável' },
-  { src: '/assets/produto-monja-2.webp', alt: 'Embalagem do Mounjaro™️ com QR code' },
-  { src: '/assets/produto-monja-3.webp', alt: 'Mounjaro™️ 5 mg — Vista lateral' },
-  { src: '/assets/produto-monja-4.webp', alt: 'Mounjaro™️ 5 mg — Produto na mão' },
+  { src: '/assets/produto-monja-1-e5tyeQu4.webp', alt: 'Mounjaro™️ 5 mg — Caneta injetável' },
+  { src: '/assets/produto-monja-2-IMb4xCQn.webp', alt: 'Embalagem do Mounjaro™️ com QR code' },
+  { src: '/assets/produto-monja-3-DRKb6ldi.webp', alt: 'Mounjaro™️ 5 mg — Vista lateral' },
+  { src: '/assets/produto-monja-4-CkFhT0gf.webp', alt: 'Mounjaro™️ 5 mg — Produto na mão' },
 ]
 
 const REVIEWS = [
   {
-    id: 1, name: 'Carlos Silva', avatar: '/assets/avatar-carlos.webp', rating: 5,
+    id: 1, name: 'Carlos Silva', avatar: '/assets/avatar-carlos-n_2VD3Gw.webp', rating: 5,
     text: 'Eu pesava 103kg quando comecei em outubro, hj to com 84kg!! Meu médico ficou impressionado com meus exames, glicemia voltou ao normal. To me sentindo outra pessoa, sério. Melhor coisa q fiz na vida 🙏',
-    proof: '/assets/prova-monja-1.webp',
+    proof: '/assets/prova-monja-1-HJJjj9Eh.webp',
   },
   {
-    id: 2, name: 'Ana Santos', avatar: '/assets/avatar-ana.webp', rating: 5,
+    id: 2, name: 'Ana Santos', avatar: '/assets/avatar-ana-Bj8kySLK.webp', rating: 5,
     text: 'Já perdi 14kg em 2 meses e meio de uso, comecei com 89kg e to com 75!! Minha pressão normalizou tbm. A aplicação é tranquila, no começo dá um nervoso mas dps acostuma kkk recomendo demais',
-    proof: '/assets/prova-monja-2.webp',
+    proof: '/assets/prova-monja-2-BSnAvTTC.webp',
   },
   {
-    id: 3, name: 'João Pereira', avatar: '/assets/avatar-joao.webp', rating: 5,
+    id: 3, name: 'João Pereira', avatar: '/assets/avatar-joao-DbvtMuja.webp', rating: 5,
     text: 'Terceira compra aqui já. Perdi 18kg no total desde q comecei o tratamento, saí de 112kg pra 94kg. Preço muito melhor q na farmácia e chega lacrado certinho. Minha endócrino que indicou esse site',
     proof: null,
   },
   {
-    id: 4, name: 'Fernanda Lima', avatar: '/assets/avatar-fernanda.webp', rating: 5,
+    id: 4, name: 'Fernanda Lima', avatar: '/assets/avatar-fernanda-Do1r3bK5.webp', rating: 5,
     text: 'To no terceiro mês e já eliminei 15kg, de 97kg fui pra 82kg! Nem acredito quando me olho no espelho. Minha autoestima voltou, to usando roupas que não vestia há anos. Não passo fome em nenhum momento',
     proof: null,
   },
   {
-    id: 5, name: 'Roberto Mendes', avatar: '/assets/avatar-roberto.webp', rating: 4,
+    id: 5, name: 'Roberto Mendes', avatar: '/assets/avatar-roberto-CNAaqPeU.webp', rating: 4,
     text: 'Comecei pesando 108kg e hj to com 89kg, quase 20kg em 3 meses!! Entrega foi rápida e bem embalada. Minha esposa viu meu resultado e já comprou pra ela tbm kkk obrigado Slim Health',
-    proof: '/assets/prova-monja-3.webp',
+    proof: '/assets/prova-monja-3-BiQwIsPO.webp',
   },
   {
-    id: 6, name: 'Márcia Oliveira', avatar: '/assets/avatar-marcia.webp', rating: 5,
+    id: 6, name: 'Márcia Oliveira', avatar: '/assets/avatar-marcia-DySENKag.webp', rating: 5,
     text: 'Tô chocada com meu resultado!! Comecei com 95kg e já tô com 79kg em menos de 3 meses. Meu marido não acreditou quando viu a balança kkk. Além de emagrecer minha disposição melhorou demais, não sinto mais aquele cansaço o dia todo. Vale muito a pena!! 💪',
     proof: null,
   },
