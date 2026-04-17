@@ -37,7 +37,7 @@ export default function CheckoutPixPage() {
           <ArrowLeft className="w-6 h-6 text-gray-700" strokeWidth={1.5} />
         </button>
         <h1 className="text-lg font-bold text-gray-900 flex-1">Pagamento PIX</h1>
-        <img src="/assets/cimed-logo.webp" alt="CIMED" className="h-7 w-auto object-contain" />
+        <img src="/assets/cimed-logo-glMYtgQm.webp" alt="CIMED" className="h-7 w-auto object-contain" />
       </header>
       <div className="h-1 w-full" style={{ backgroundColor: '#F5B800' }} />
 
