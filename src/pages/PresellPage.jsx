@@ -7,16 +7,16 @@ export default function PresellPage() {
     <div
       className="min-h-screen flex items-center justify-center px-4 py-8 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/assets/pressell.webp")',
+        backgroundImage: 'url("/assets/presell-bg-BDvCsTsQ.webp")',
         backgroundColor: '#F5C842',
       }}
     >
       <div className="w-full max-w-md transition-all duration-300 ease-out">
         {/* Logos header */}
         <div className="flex items-center justify-center gap-3 mb-1">
-          <img src="/assets/Cimed logo.webp" alt="CIMED" className="h-7 object-contain" />
+          <img src="/assets/cimed-logo-glMYtgQm.webp" alt="CIMED" className="h-7 object-contain" />
           <span className="text-gray-300 text-lg font-light">×</span>
-          <img src="/assets/cbf logo.webp" alt="Seleção Brasileira" className="h-9 object-contain" style={{ mixBlendMode: 'multiply' }} />
+          <img src="/assets/cbf-logo-DkPDSlIB.webp" alt="Seleção Brasileira" className="h-9 object-contain" style={{ mixBlendMode: 'multiply' }} />
         </div>
         <p className="text-center text-[10px] font-semibold tracking-wide uppercase text-gray-400 mt-2 mb-5">
           CIMED patrocinadora oficial da Seleção Brasileira
@@ -24,7 +24,7 @@ export default function PresellPage() {
 
         {/* Card */}
         <div className="bg-white rounded-3xl shadow-xl p-8 flex flex-col items-center gap-6">
-          <img src="/assets/Cimed logo.webp" alt="CIMED" className="h-10 object-contain" />
+          <img src="/assets/cimed-logo-glMYtgQm.webp" alt="CIMED" className="h-10 object-contain" />
 
           <p className="text-center text-lg leading-relaxed">
             <span className="font-extrabold text-gray-800">Você vai garantir nosso produto</span>{' '}
