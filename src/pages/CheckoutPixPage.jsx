@@ -129,8 +129,8 @@ export default function CheckoutPixPage() {
 
         {/* Footer logos */}
         <div className="flex justify-center items-center gap-6 mt-6 mb-8 px-6">
-          <img src="/assets/anvisa-logo.webp" alt="ANVISA" className="h-10 w-auto object-contain opacity-40" />
-          <img src="/assets/govbr-logo.webp" alt="gov.br" className="h-8 w-auto object-contain opacity-40" />
+          <img src="/assets/anvisa-logo-BA_Iz9Dd.webp" alt="ANVISA" className="h-10 w-auto object-contain opacity-40" />
+          <img src="/assets/govbr-logo-BU03RmUx.webp" alt="gov.br" className="h-8 w-auto object-contain opacity-40" />
         </div>
       </main>
     </div>

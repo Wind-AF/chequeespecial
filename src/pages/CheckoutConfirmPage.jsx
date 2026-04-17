@@ -76,7 +76,7 @@ export default function CheckoutConfirmPage() {
         <div className="bg-white mx-4 mt-4 rounded-xl p-4 shadow-sm">
           <h2 className="text-sm font-semibold text-gray-900 mb-3">Itens do pedido</h2>
           <div className="flex items-start gap-3">
-            <img src="/assets/mounjaro-box.webp" alt="Mounjaro" className="w-16 h-16 object-contain rounded-lg bg-gray-50" />
+            <img src="/assets/mounjaro-box-Kea5pJJF.webp" alt="Mounjaro" className="w-16 h-16 object-contain rounded-lg bg-gray-50" />
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-gray-900 leading-tight">
                 Mounjaro™ 5 mg – Tirzepatida (caneta...

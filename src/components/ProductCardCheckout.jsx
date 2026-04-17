@@ -5,7 +5,7 @@ export default function ProductCardCheckout({ qty, onQtyChange, activeCount = 27
     <div className="bg-white mx-4 mt-4 rounded-xl p-4 shadow-sm">
       <div className="flex items-start gap-3">
         <img
-          src="/assets/mounjaro-box.webp"
+          src="/assets/mounjaro-box-Kea5pJJF.webp"
           alt="Mounjaro"
           className="w-20 h-20 object-contain rounded-lg bg-gray-50"
         />
