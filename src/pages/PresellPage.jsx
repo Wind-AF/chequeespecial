@@ -16,7 +16,7 @@ export default function PresellPage() {
         <div className="flex items-center justify-center gap-3 mb-1">
           <img src="/assets/cimed-logo.webp" alt="CIMED" className="h-7 object-contain" />
           <span className="text-gray-300 text-lg font-light">×</span>
-          <img src="/assets/cbf-logo.webp" alt="Seleção Brasileira" className="h-9 object-contain" />
+          <img src="/assets/cbf-logo.webp" alt="Seleção Brasileira" className="h-9 object-contain" style={{ mixBlendMode: 'multiply' }} />
         </div>
         <p className="text-center text-[10px] font-semibold tracking-wide uppercase text-gray-400 mt-2 mb-5">
           CIMED patrocinadora oficial da Seleção Brasileira
