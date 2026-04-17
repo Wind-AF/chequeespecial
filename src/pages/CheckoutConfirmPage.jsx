@@ -217,7 +217,15 @@ export default function CheckoutConfirmPage() {
           <button
             className="px-16 py-3.5 rounded-lg font-semibold text-base text-white hover:opacity-90 transition-opacity flex items-center gap-2"
             style={{ backgroundColor: '#F5B800' }}
-            onClick={() => navigate('/checkout/pix')}
+            onClick={() => {
+              window.ttq?.track('InitiateCheckout', {
+                value: parseFloat(total.replace(',', '.')),
+                currency: 'BRL',
+                content_type: 'product',
+                contents: [{ content_id: 'mounjaro-5mg', content_name: 'Mounjaro™ 5mg – Tirzepatida', quantity }],
+              })
+              navigate('/checkout/pix')
+            }}
           >
             Pagar
           </button>

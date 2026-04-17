@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { CheckoutProvider } from './context/CheckoutContext'
 import PresellPage from './pages/PresellPage'
 import NamePage from './pages/NamePage'
@@ -9,10 +10,19 @@ import CheckoutAddressPage from './pages/CheckoutAddressPage'
 import CheckoutConfirmPage from './pages/CheckoutConfirmPage'
 import CheckoutPixPage from './pages/CheckoutPixPage'
 
+function TikTokPageTracker() {
+  const location = useLocation()
+  useEffect(() => {
+    window.ttq?.page()
+  }, [location.pathname])
+  return null
+}
+
 export default function App() {
   return (
     <CheckoutProvider>
       <BrowserRouter>
+        <TikTokPageTracker />
         <Routes>
           <Route path="/" element={<PresellPage />} />
           <Route path="/nome" element={<NamePage />} />

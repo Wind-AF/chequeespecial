@@ -134,6 +134,12 @@ export default function CheckoutPixPage() {
         const data = await res.json()
         if (data.status === 'approved') {
           clearInterval(pollingRef.current)
+          window.ttq?.track('Purchase', {
+            value: total,
+            currency: 'BRL',
+            content_type: 'product',
+            contents: [{ content_id: 'mounjaro-5mg', content_name: 'Mounjaro™ 5mg – Tirzepatida', quantity, price: PRICE }],
+          })
           setPageStatus('approved')
         } else if (data.status === 'failed' || data.status === 'refunded') {
           clearInterval(pollingRef.current)
