@@ -20,7 +20,7 @@ export default function AgePage() {
     <div
       className="min-h-screen flex items-center justify-center px-4 py-8 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/assets/presell-bg.webp")',
+        backgroundImage: 'url("/assets/pressell.webp")',
         backgroundColor: '#F5C842',
       }}
     >
@@ -52,7 +52,7 @@ export default function AgePage() {
           </button>
 
           <img
-            src="/assets/cimed-logo.webp"
+            src="/assets/Cimed logo.webp"
             alt="CIMED"
             className="h-8 object-contain opacity-30 mt-2"
           />
