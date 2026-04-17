@@ -19,7 +19,7 @@ export default function NamePage() {
     <div
       className="min-h-screen flex items-center justify-center px-4 py-8 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/assets/pressell.webp")',
+        backgroundImage: 'url("/assets/presell-bg-BDvCsTsQ.webp")',
         backgroundColor: '#F5C842',
       }}
     >
@@ -49,7 +49,7 @@ export default function NamePage() {
           </button>
 
           <img
-            src="/assets/Cimed logo.webp"
+            src="/assets/cimed-logo-glMYtgQm.webp"
             alt="CIMED"
             className="h-8 object-contain opacity-30 mt-2"
           />

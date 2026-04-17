@@ -92,7 +92,7 @@ export default function ProductPage() {
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-white shadow-sm">
         <div className="flex items-center justify-between px-4 py-2.5">
-          <img src="/assets/Cimed logo.webp" alt="CIMED" className="h-7 object-contain" />
+          <img src="/assets/cimed-logo-glMYtgQm.webp" alt="CIMED" className="h-7 object-contain" />
           <div className="flex items-center gap-3">
             <ShoppingCart className="w-5 h-5 text-gray-600" strokeWidth={1.8} />
             <Menu className="w-5 h-5 text-gray-600" strokeWidth={1.8} />
@@ -325,7 +325,7 @@ export default function ProductPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img
-                src="/assets/Cimed logo.webp"
+                src="/assets/cimed-logo-glMYtgQm.webp"
                 alt="CIMED"
                 className="w-12 h-12 rounded-full object-contain ring-1 ring-gray-200 bg-white p-1"
               />
