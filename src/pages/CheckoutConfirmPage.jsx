@@ -16,7 +16,7 @@ const SHIPPING_LABELS = {
 const UPSELLS = [
   {
     id: 'canetas',
-    image: '/assets/canetas.webp',
+    image: '/assets/canetas-D5NMXV75.webp',
     title: '+2 Canetas Aplicadoras Premium',
     badge: 'MAIS VENDIDO',
     sub: 'Continue seu tratamento sem interrupções',
@@ -27,7 +27,7 @@ const UPSELLS = [
   },
   {
     id: 'kit',
-    image: '/assets/kit-transporte.webp',
+    image: '/assets/kit-transporte-m5zq0Zae.webp',
     title: 'Kit Transporte Refrigerado',
     badge: null,
     sub: 'Bolsa térmica para levar aonde for',
@@ -38,7 +38,7 @@ const UPSELLS = [
   },
   {
     id: 'aula',
-    image: '/assets/aula-play.webp',
+    image: '/assets/aula-play-oQfcfano.webp',
     title: 'Aula Exclusiva de Aplicação',
     badge: null,
     sub: 'Aprenda a aplicar como um profissional',
@@ -192,7 +192,7 @@ export default function CheckoutConfirmPage() {
         <div className="bg-white mx-4 mt-3 rounded-xl p-4 shadow-sm">
           <h2 className="text-sm font-bold text-gray-900 mb-3">Forma de pagamento</h2>
           <div className="flex items-center gap-3 p-3 rounded-xl border-2 border-[#2DB573] bg-[#F0FDF4]">
-            <img src="/assets/pix-logo.webp" alt="PIX" className="h-6 w-auto object-contain" />
+            <img src="/assets/pix-logo-DXbOeoFN.webp" alt="PIX" className="h-6 w-auto object-contain" />
             <div className="flex-1">
               <p className="text-sm font-semibold text-gray-900">Pix</p>
               <p className="text-xs text-gray-500">Aprovação imediata</p>
